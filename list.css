@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.head {
+  font-family: "Roboto";
+  font-weight: bolder;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu {
+  width: 32px;
+}
+
+.input .container {
+  display: flex;
+  max-width: 80%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.input input {
+  border: 2px solid black;
+  background-color: #f8f8f8;
+  padding: 10px;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.layout-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.layout-btn img {
+  cursor: pointer;
+}
+
+.products {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 15px;
+
+  margin-bottom: 100px;
+}
+
+.products .product-card {
+  padding: 10px;
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  gap: 40px;
+  border: 2px solid #e4e4e4;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.prod_img {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.product-details h1 {
+  font-family: "Roboto";
+  font-weight: 1000;
+  font-size: 2.2rem;
+}
+.product-details .size {
+  font-family: "Roboto";
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 190%;
+  color: #4c4c4c;
+  border-radius: 7px;
+  font-weight: bold;
+  background-color: "transparent";
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  position: absolute;
+  background-color: #ccff78;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 168px;
+  -webkit-border-radius: 60px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius: 60px;
+  -moz-border-radius-topleft: 0;
+  border-radius: 60px;
+  border-top-left-radius: 0;
+}
